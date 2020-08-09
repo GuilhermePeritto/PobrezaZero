@@ -1,0 +1,291 @@
+html, body {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+}
+/*----Barra de navegação-------*/
+header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+}
+header #logo {
+    position: absolute;
+    top: 0px;
+    float: left;
+    height: 35px;
+    width: 50px;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+header #logo img{
+    max-height: 90%;
+} 
+.menu{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 1%;
+}
+.btnmenu1 {
+    float: right;
+    font-size: 18px;
+    padding: 11px 15px 9px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.btnmenu2 {
+    float: right;
+    font-size: 18px;
+    padding: 11px 15px 9px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.btnmenu3 {
+    float: right;
+    font-size: 18px;
+    padding: 11px 15px 9px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.btnmenu4 {
+    float: right;
+    font-size: 18px;
+    padding: 11px 15px 9px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+/*    Capa   */
+figure {
+    margin: 0 auto;
+}
+figure .imagem_fundo{
+    background: url(img/fundo.jpg);
+    background-size: cover;
+    height: 68%;
+    padding: 150px;
+}
+figure .titulo_capa {
+    color: white;
+    line-height: 0.9;
+    text-shadow: 1px 1px black;
+}
+figure h1.titulo_capa {
+    font-size: 70px;
+    letter-spacing: -5px;
+    margin: 20% 20% 0 20%;
+    padding-bottom: 20px;
+}
+figure h2.titulo_capa {
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 0 30% 0 30%;
+    border-top: 3px solid white;
+    padding-bottom: 40px;
+}
+.btn1 {
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10 20 10 20;
+    text-decoration: initial;
+    font-size: 20px;
+}
+
+/*  Botoes funcionais */
+  
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btnmenu1:hover {
+    background-color: white;
+    color: black;
+    padding: 11px 15px 25px 15px;
+    border-radius: 8px;
+}
+.btnmenu2:hover {
+    background-color: white;
+    color: black;
+    padding: 11px 15px 25px 15px;
+    border-radius: 8px;
+}
+.btnmenu3:hover {
+    background-color: white;
+    color: black;
+    padding: 11px 15px 25px 15px;
+    border-radius: 8px;
+}
+.btnmenu4:hover {
+    background-color: white;
+    color: black;
+    padding: 11px 15px 25px 15px;
+    border-radius: 8px;
+}
+
+/* Esquema de posicionamento*/
+
+.esquerda {
+    text-align: left;
+}
+.direita {
+    text-align: right;
+}
+.centro {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3;
+}
+.justificado {
+    text-align: justify;
+   
+}
+/* Icones */
+
+.icone {
+    width: 58.03px;
+    border-radius: 75px;
+    
+}
+.icone:hover {
+    background-color: #f7f7f7;
+    border-radius: 75px;
+    border: 0.8px black solid;
+}
+
+/*  Colunas  */
+.coluna1 {
+    float: left;
+    position: relative;
+    width: 40%;
+    padding: 0% 5% 0 2%;
+    text-align: justify;
+}
+.coluna2 {
+    float: left;
+    padding: 0% 4%;
+    position: relative;
+    width: 17%;
+    text-align: center;
+    font-size: 18px;
+}
+.coluna3 {
+    float: left;
+    padding: 0 6.5% 5% 6.5%;
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+.coluna4 {
+    float: left;
+    padding: 5% 10% 6% 20%;
+    position: relative;
+    width: 20%;
+    background-color: #f1f1f1;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 30px;
+    padding: 6% 0;
+}
+#menu1 {
+    padding: 1% 2% 40% 5%; 
+    
+}
+#menu2 {
+    padding-top: 2%;
+    padding-bottom: 22%;
+    background-color:   #f1f1f1;
+}
+#menu3 {
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+#menu4 {
+    background-color:   #f1f1f1;
+    padding-bottom: 30%;
+}
+.imgeu {
+    width: 85%;
+    float: right;
+    padding-top: 0.5%;
+}
+
+/*    Footer     */
+footer {
+    background-color: black;
+    color: white;
+   padding: 2%;
+}
+.creditos {
+    padding: 0 20%;
+    float: left;
+    text-align: center;
+}
+
+.fonte{
+  text-align: center;
+}
+
+.imgrealidade {
+    width: 100%;
+}
+.sobremim {
+    font-size: 30px;
+    text-align:center;
+    border-bottom: black solid;
+    padding-bottom: 3%;
+    
+}
+
+#video {
+    padding: 3% 0;
+}
+.realidade {
+    text-align: center;
+    font-size: 30px;
+    padding: 5% 0%;
+}
+section {
+    padding: 20px;
+}
+.objetivotitulo {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5%;
+    border: 0;
+}
+#teste.coluna1 {
+    padding: 6% 0 4% 4%;
+}
+.titulometa {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: black solid;
+
+}
+#texto {
+    padding: 5% 0;
+}
+.imgtexto {
+    width: 27%;
+    float: right;
+    padding: 1% 2%;
+}
+.texto {
+    font-size: 17px;
+    text-align: justify;
+}
+@media
