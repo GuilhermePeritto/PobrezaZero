@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T00:19:21.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0 (Edition std-1)" etag="MQIbkoayd2Y3ZTWsvLol" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T00:20:57.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0 (Edition std-1)" etag="v2gb-9Oz0OVna5dTWlWg" version="20.8.23" type="github">
   <diagram name="Página-1" id="tZ-FnDpk_EI_3bltiqE9">
-    <mxGraphModel dx="841" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="kunzXt-IUMPbXXXaa17F-19" value="Aplicar Multa" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="605.38" y="363.75" width="51.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kunzXt-IUMPbXXXaa17F-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-20" target="kunzXt-IUMPbXXXaa17F-21">
+        <mxCell id="kunzXt-IUMPbXXXaa17F-32" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-20" target="kunzXt-IUMPbXXXaa17F-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-20" target="kunzXt-IUMPbXXXaa17F-22">
@@ -105,6 +105,9 @@
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.494;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-6" target="kunzXt-IUMPbXXXaa17F-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kunzXt-IUMPbXXXaa17F-49" value="Se tiver &lt;br&gt;em estoque" style="html=1;dropTarget=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="524.62" y="230" width="85.38" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
