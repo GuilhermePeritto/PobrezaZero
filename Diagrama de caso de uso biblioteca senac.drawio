@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T23:59:29.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0 (Edition std-1)" etag="5pNyARSVhp7VSotVhmjS" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T00:09:08.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0 (Edition std-1)" etag="KmEtFkhm8gLEq_YDYlhc" version="20.8.23" type="github">
   <diagram name="Página-1" id="tZ-FnDpk_EI_3bltiqE9">
     <mxGraphModel dx="841" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kunzXt-IUMPbXXXaa17F-9" value="Sistema da biblioteca Senac" style="html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="250" y="40" width="380" height="490" as="geometry" />
+          <mxGeometry x="250" y="40" width="420" height="490" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-5" target="kunzXt-IUMPbXXXaa17F-11">
           <mxGeometry relative="1" as="geometry" />
@@ -38,40 +38,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-11" value="Solicitar empréstimo do livro" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="272.5" y="300" width="80" height="60" as="geometry" />
+          <mxGeometry x="278.75" y="280" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-13" value="Alterar cadastro do livro" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="280" y="130" width="77.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kunzXt-IUMPbXXXaa17F-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-16" target="kunzXt-IUMPbXXXaa17F-23">
+        <mxCell id="kunzXt-IUMPbXXXaa17F-31" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-16" target="kunzXt-IUMPbXXXaa17F-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kunzXt-IUMPbXXXaa17F-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-16" target="kunzXt-IUMPbXXXaa17F-19">
+        <mxCell id="kunzXt-IUMPbXXXaa17F-33" value="&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=none;startFill=1;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-37" target="kunzXt-IUMPbXXXaa17F-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-16" value="Devolução do livro" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="272.5" y="380" width="77.5" height="50" as="geometry" />
+          <mxGeometry x="260" y="417.5" width="77.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-18" value="Dar entrada do livro devolvido" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="280" y="190" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-19" value="Aplicar Multa" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="530" y="380" width="51.25" height="50" as="geometry" />
+          <mxGeometry x="605.38" y="363.75" width="51.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-20" target="kunzXt-IUMPbXXXaa17F-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-20" value="Verificar disponibilidade do livro" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="398.45" y="293.75" width="84.62" height="72.5" as="geometry" />
+          <mxGeometry x="410" y="273.75" width="84.62" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-21" value="Retirar uma unidade do livro" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="530" y="295" width="80" height="70" as="geometry" />
+          <mxGeometry x="534.63" y="275" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-22" value="Busca na bilblioteca virtual" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="534.63" y="90" width="70.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-23" value="Incluir uma unidade do livro" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="400.75" y="440" width="79.25" height="70" as="geometry" />
+          <mxGeometry x="455.38" y="450" width="79.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kunzXt-IUMPbXXXaa17F-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-4" target="kunzXt-IUMPbXXXaa17F-18">
           <mxGeometry relative="1" as="geometry">
@@ -94,8 +94,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kunzXt-IUMPbXXXaa17F-35" value="Se a data de vencimento&amp;nbsp; estiver ultrapassada" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="375.13" y="365" width="154.87" height="43.75" as="geometry" />
+        <mxCell id="kunzXt-IUMPbXXXaa17F-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="kunzXt-IUMPbXXXaa17F-16" target="kunzXt-IUMPbXXXaa17F-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="425" as="sourcePoint" />
+            <mxPoint x="530" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kunzXt-IUMPbXXXaa17F-37" value="Se a data de &lt;br&gt;vencimento&lt;br&gt;&amp;nbsp;estiver ultrapassada" style="html=1;dropTarget=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="394.81" y="357.5" width="115" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kunzXt-IUMPbXXXaa17F-38" value="" style="shape=module;jettyWidth=8;jettyHeight=4;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;html=1;" vertex="1" parent="kunzXt-IUMPbXXXaa17F-37">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
